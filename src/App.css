@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.like-button {
+  background: rgb(0, 255, 17);
+  border: 5px solid rgb(18, 178, 241);
+  border-radius: 5%;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button:active {
+  transform: scale(0.95);
+}
+
+.heart-emoji {
+  font-size: 4rem;
+}
